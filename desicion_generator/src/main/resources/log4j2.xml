@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+<Properties>
+    <Property name="default_format">%d{yyyy/MM/dd HH:mm:ss.SSS} [%t] %-5level %C{1}:%L - %msg%n</Property>
+    <Property name="file_name">detail.log</Property>
+    <Property name="log_file_pattern">C:/temp/sample_log4j%d{yyyy-MM-dd}-%i.log</Property>
+  </Properties>
+
+    <!-- ログ出力先とログフォーマットの定義 -->
+    <Appenders>
+        <Console name="console_appender" target="SYSTEM_OUT">
+            <!-- <PatternLayout pattern="%d{yyyy/MM/dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n%ex"/> -->
+            <PatternLayout pattern="%m %n"/>
+        </Console>
+
+        <File name="file_appender" fileName="${file_name}">
+            <PatternLayout pattern="%m %n"/>
+        </File>
+    </Appenders>
+
+    <!-- パッケージ×ログレベル毎のログ出力先（Appender）を定義 -->
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="console_appender" level="info"/>
+            <AppenderRef ref="file_appender" level="debug"/>
+        </Root>
+    </Loggers>
+</Configuration>

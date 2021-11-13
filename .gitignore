@@ -1,8 +1,12 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
+desicion_generator/target
+desicion_generator/pom.xml.tag
+desicion_generator/pom.xml.releaseBackup
+desicion_generator/pom.xml.versionsBackup
+desicion_generator/pom.xml.next
+desicion_generator/pom.xml
+desicion_generator/detail.log
+desicion_generator/.classpath
+desicion_generator/.project
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
