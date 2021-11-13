@@ -1,9 +1,11 @@
+.metadata
+DecisionMatrixGenerator.exe
 desicion_generator/target
+desicion_generator/.settings
 desicion_generator/pom.xml.tag
 desicion_generator/pom.xml.releaseBackup
 desicion_generator/pom.xml.versionsBackup
 desicion_generator/pom.xml.next
-desicion_generator/pom.xml
 desicion_generator/detail.log
 desicion_generator/.classpath
 desicion_generator/.project
@@ -13,3 +15,4 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+/.metadata/
