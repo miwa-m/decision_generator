@@ -10,12 +10,12 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import desicion_generator.parser.models.Class;
-import desicion_generator.parser.models.Condition;
-import desicion_generator.parser.models.ConditionCombination;
-import desicion_generator.parser.models.Pattern;
-import desicion_generator.parser.models.Pattern.Bool;
-import desicion_generator.parser.models.Token;
+import decision_generator.parser.models.Class;
+import decision_generator.parser.models.Condition;
+import decision_generator.parser.models.ConditionCombination;
+import decision_generator.parser.models.Pattern;
+import decision_generator.parser.models.Token;
+import decision_generator.parser.models.Pattern.Bool;
 import out.BookGenerator;
 
 public class BookGeneratorTest {

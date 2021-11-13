@@ -3,7 +3,7 @@ import java.util.regex.Matcher;
 
 import org.apache.commons.lang3.StringUtils;
 
-import desicion_generator.utility.SyntaxAnalyzeUtility;
+import decision_generator.utility.SyntaxAnalyzeUtility;
 
 public class verify {
     public static void main(String[] args) {

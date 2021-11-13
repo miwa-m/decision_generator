@@ -5,10 +5,10 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import desicion_generator.parser.models.Case;
-import desicion_generator.parser.models.Catch;
-import desicion_generator.parser.models.Sentence;
-import desicion_generator.parser.models.Switch;
+import decision_generator.parser.models.Case;
+import decision_generator.parser.models.Catch;
+import decision_generator.parser.models.Sentence;
+import decision_generator.parser.models.Switch;
 
 public class SentenceTest {
 

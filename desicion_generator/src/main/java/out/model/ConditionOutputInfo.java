@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import desicion_generator.parser.models.ConditionCombination;
-import desicion_generator.parser.models.Sentence;
+import decision_generator.parser.models.ConditionCombination;
+import decision_generator.parser.models.Sentence;
 
 public class ConditionOutputInfo {
     

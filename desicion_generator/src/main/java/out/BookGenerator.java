@@ -20,22 +20,22 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.CellUtil;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import desicion_generator.exceptions.FailedGenerateBookException;
-import desicion_generator.parser.models.Case;
-import desicion_generator.parser.models.Catch;
-import desicion_generator.parser.models.Class;
-import desicion_generator.parser.models.Condition;
-import desicion_generator.parser.models.ConditionCombination;
-import desicion_generator.parser.models.If;
-import desicion_generator.parser.models.Method;
-import desicion_generator.parser.models.Pattern;
-import desicion_generator.parser.models.Pattern.Bool;
-import desicion_generator.parser.models.Sentence;
-import desicion_generator.parser.models.SentenceType;
-import desicion_generator.parser.models.Switch;
-import desicion_generator.parser.models.Token;
-import desicion_generator.utility.ColumnIdentify;
-import desicion_generator.utility.DGLogger;
+import decision_generator.exceptions.FailedGenerateBookException;
+import decision_generator.parser.models.Case;
+import decision_generator.parser.models.Catch;
+import decision_generator.parser.models.Class;
+import decision_generator.parser.models.Condition;
+import decision_generator.parser.models.ConditionCombination;
+import decision_generator.parser.models.If;
+import decision_generator.parser.models.Method;
+import decision_generator.parser.models.Pattern;
+import decision_generator.parser.models.Sentence;
+import decision_generator.parser.models.SentenceType;
+import decision_generator.parser.models.Switch;
+import decision_generator.parser.models.Token;
+import decision_generator.parser.models.Pattern.Bool;
+import decision_generator.utility.ColumnIdentify;
+import decision_generator.utility.DGLogger;
 import out.model.ConditionOutputInfo;
 
 public class BookGenerator {

@@ -12,16 +12,16 @@ import java.util.regex.Pattern;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 
-import desicion_generator.parser.JavaFileAnalyzer;
-import desicion_generator.parser.models.Block;
-import desicion_generator.parser.models.Case;
-import desicion_generator.parser.models.Class;
-import desicion_generator.parser.models.Condition;
-import desicion_generator.parser.models.If;
-import desicion_generator.parser.models.Sentence;
-import desicion_generator.parser.models.SentenceType;
-import desicion_generator.utility.PatternConstants;
-import desicion_generator.utility.SyntaxAnalyzeUtility;
+import decision_generator.parser.JavaFileAnalyzer;
+import decision_generator.parser.models.Block;
+import decision_generator.parser.models.Case;
+import decision_generator.parser.models.Class;
+import decision_generator.parser.models.Condition;
+import decision_generator.parser.models.If;
+import decision_generator.parser.models.Sentence;
+import decision_generator.parser.models.SentenceType;
+import decision_generator.utility.PatternConstants;
+import decision_generator.utility.SyntaxAnalyzeUtility;
 
 public class JavaFileAnalyzerTest {
 
